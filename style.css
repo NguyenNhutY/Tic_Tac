@@ -62,10 +62,10 @@ body{
 .btn button:hover{
   transform: scale(0.96);
 }
-.options button.playerX{
+.options button .playerX{
   margin-right: 5px;
 }
-.options button.playerO{
+.options button .playerO{
   margin-left: 5px;
 }
 .select-box .credit{
@@ -74,7 +74,7 @@ body{
   font-size: 18px;
   font-weight: 500;
 }
-.select-box .credit a{
+.select-box .credit {
   color: #56baed;
   text-decoration: none;
 }
